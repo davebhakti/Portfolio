@@ -10,44 +10,175 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body id="top-of-page">
+    <div class="underlay"></div>
     <header>
+        <a href="/">
         <h1>Bhakti Dave</h1>
-        <h2>Software Engineering at UCI</h2>
+        </a>
+        <h4>Software Engineering at UCI</h4>
         <p>An aspiring Software Engineer seeking to learn more about all stuff CS related.</p>
         <nav>
-            <a>
+            <a class="anchor-text" href="#about">
                 <p>
                     About
                 </p>
             </a>
-            <a>
+            <a class="anchor-text" href="#experience">
                 <p>
                     Experience
                 </p>
             </a>
-            <a>
+            <a class="anchor-text" href="#projects">
                 <p>
                     Projects
                 </p>
             </a>
         </nav>
-        <div>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
+        <div class="social-link-container">
+            <a class="social-link" href="https://www.linkedin.com/in/bhakti-dave-6a39b0285/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="social-link" href="https://github.com/davebhakti" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
         </div>
     </header>
     <main>
-        <section>
-            
+        <section id="about">
+            <div class="sticky-header">
+                <h2 class="lightText">About</h2>
+            </div>
+            <div class="about-contents">
+                <p>Hey there! I am Bhakti and I am interested in all things CS related. My journey with CS started in 2021 when first introduced in high school. Since then, I am learning new things daily about problem-solving, coding and web development.
+                    I am captivated by any form of art, especially paintings and always look around to try new food. Sometimes I would tumble across a cool website like <a target="_blank" class="anchor-text" href="https://neal.fun/"> this</a>  and am encouraged to come up with such great ideas. Hope to be insipred and be an inspiration.
+                    I would gladly like to connect and have a chat about new opportunities and ideas.
+                </p>
+            </div>
+        </section>
+        <section id="experience">
+            <div class="sticky-header">
+                <h2 class="lightText">Experience</h2>
+            </div>
+            <div class="experience-contents">
+                <!--Below starts the CARD which you can copy paste to add experience-->
+                <div class="experience-card">
+                    <P class="tenure">2024 - Present</P>
+                    <div class="card-column">
+                        <a>
+                            <h3 class="anchor-text card-header">Student Assistant • Division of Equal Opportunity and Compliance (UCI) <i class="fa-solid fa-arrow-right anchor-icon"></i></h3>
+                        </a>
+                        <p>DEOC at UCI focuses on broad ranges of compliance functions along with American with Disabilities Act (ADA), 
+                            Title IX, Privacy, Public Records Act (PRA) and Whistleblower. As a Student Assistant I assist the 
+                            department heads with their tasks and participate in meetings which are crucial for the department's projects. 
+                            I also get to experience the front desk, assisting the department's guests and
+                            connecting them to appropriate help which can be provided by the department's resources.
+                        </p>
+                        <div class="tag-container">
+                            <div class="tag">
+                                <p>Project Management</p>
+                            </div>
+                            <div class="tag">
+                                <p>Team Building</p>
+                            </div>
+                            <div class="tag">
+                                <p>Problem Solving</p>
+                            </div>
+                            <div class="tag">
+                                <p>Office Administration</p>
+                            </div>
+                            <div class="tag">
+                                <p>Communication</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div> <!--This is where the CARD for experience starts,
+            Copy this card to add an experience-->
+            <!--Remember, the view full resume will come at the end always!-->
+            <a href="/public/bhakti-resume.pdf" target="_blank" class="anchor-text"><p>View Full Resume <i class="fa-solid fa-arrow-right anchor-icon"></i></p></a>
+        </section>
+        <section id="projects">
+            <div class="sticky-header">
+                <h2 class="lightText">Projects</h2>
+            </div>
+            <div class="project-contents">
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="/public/homepage.jpeg" alt="Just a cat image"/>
+                    </div>
+                    <div class="card-column">
+                        <a href="https://bhakti-google-homepage.netlify.app/" target="_blank">
+                            <h3 class="anchor-text card-header">Google Homepage<i class="fa-solid fa-arrow-right anchor-icon"></i></h3>
+                        </a>
+                        <p>This is a non-functional google homepage through which I learned the basics of HTML & CSS framework.
+                            In HTML, I learned about the HTML structure, headings/texts, links and images. In CSS, I learned about CSS structure, styling
+                            texts, positioning elements and background style/layouts. By building this simple page, you'll get a solid grasp of foundational 
+                            HTML and CSS concepts that are core to web development. 
+                        </p>
+                        <a href="/" target="_blank" class="anchor-text project-stat-link">
+                            <i class="fa-solid fa-star"></i>
+                            <!--<p>Fill this with the number of views for this website</p>-->
+                        </a>
+                        <div class="tag-container">
+                            <div class="tag">
+                                <p>HTML</p>
+                            </div>
+                            <div class="tag">
+                                <p>CSS</p>
+                            </div>
+                            <div class="tag">
+                                <p>Front end web development</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div><!--This is where the CARD for PROJECTS starts,
+                Copy this card to add an experience-->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="/public/bhakti-web.png" alt="Just a cat image"/>
+                    </div>
+                    <div class="card-column">
+                        <a href="/" target="_blank">
+                            <h3 class="anchor-text card-header">Personal Web Portfolio<i class="fa-solid fa-arrow-right anchor-icon"></i></h3>
+                        </a>
+                        <p>This web portfolio is a project I undertook to gather more knowledge of web development simply using HTML & CSS.
+                            I created different layouts depending on the type of device (mobile, laptops tablets etc.) being used, thus learning about
+                            building a responsive website. I did this by using media queries and responsive units. I also used some minor transitions throughout
+                            the portfolio along with pseudo-elements.
+                        </p>
+                        <a href="/" target="_blank" class="anchor-text project-stat-link">
+                            <i class="fa-solid fa-star"></i>
+                            <!--<p>Fill this with the number of views for this website</p>-->
+                        </a>
+                        <div class="tag-container">
+                            <div class="tag">
+                                <p>HTML</p>
+                            </div>
+                            <div class="tag">
+                                <p>CSS</p>
+                            </div>
+                            <div class="tag">
+                                <p>Front end web development</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div><!--This is where the CARD for PROJECTS starts,
+                Copy this card to add an experience-->
+            </div> 
+            <a href="/" class="project-archive-link"><p>View Full Archive <span class="right-arrow">&rarr;</span></p></a>
         </section>
     </main>
     <footer>
-
+        <p>Inspired by <a target="_blank" class="anchor-text" href="https://brittanychiang.com/">Brittany Chiang's</a> 
+        website, with a simpler approach. Coded in <a target="_blank" class="anchor-text" href="https://code.visualstudio.com/">Visual Studio Code</a> and built with HTML and CSS. All text is set in <a target="_blank" class="anchor-text" href="https://rsms.me/inter/">Inter typeface</a>. Deployed with 
+    <a target="_blank" class="anchor-text" href="https://www.netlify.com/">Netlify</a>.</p>
+    <a href="#top-of-page" class="scroll-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    </a>
     </footer>
 </body>
 </html>
