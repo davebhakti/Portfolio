@@ -1,1 +1,2 @@
-[Find more about me!]([url](https://bhaktidave-portfolio.netlify.app/))
+[Find more about me!]((https://bhaktidave-portfolio.netlify.app/))
+
